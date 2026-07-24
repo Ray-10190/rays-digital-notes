@@ -4,7 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://ray-10190.github.io/rays-digital-notes/",
     title: "Ray's Digital Notes",
-    description: "Ray's digital notes blog.",
+    description: "Ray 的數位筆記",
     author: "Ray",
     profile: "https://github.com/Ray-10190",
     ogImage: "default-og.jpg",

@@ -29,8 +29,8 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/Ray-10190" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "youtube",   url: "https://www.youtube.com" },
+    { name: "instagram", url: "https://www.instagram.com/ray20141028/" },
   ],
   shareLinks: [
     { name: "mail",     url: "mailto:?subject=See%20this%20post&body=" },

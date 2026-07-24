@@ -3,7 +3,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://ray-10190.github.io/rays-digital-notes/",
-    title: "Ray's Digital Notes",
+    title: "Ray的數位筆記",
     description: "Ray 的數位筆記",
     author: "Ray",
     profile: "https://github.com/Ray-10190",

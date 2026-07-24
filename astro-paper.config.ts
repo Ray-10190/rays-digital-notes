@@ -8,8 +8,8 @@ export default defineAstroPaperConfig({
     author: "Ray",
     profile: "https://github.com/Ray-10190",
     ogImage: "default-og.jpg",
-    lang: "en",
-    timezone: "Asia/Bangkok",
+    lang: "zh-tw",
+    timezone: "Asia/Taipei",
     dir: "ltr",
   },
   posts: {

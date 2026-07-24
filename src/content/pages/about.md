@@ -3,19 +3,17 @@ title: "關於"
 description: "關於我與這個部落格。"
 ---
 
-Ray's Digital Notes 是一個以 [Astro](https://astro.build/) 和 [Tailwind CSS](https://tailwindcss.com/) 打造的極簡、無障礙且對 SEO 友好的部落格。
+## Hi, 我是 Ray
 
-本部落格提供穩固的基礎，支援完整的 Markdown、內建暗色模式，以及開箱即用的清爽版面。
+這裡是我的數位筆記，主要記錄程式開發、AI 應用與效率工具的學習心得。
 
-## 功能特色
+## 關於這個部落格
 
-- 對 SEO 友好
-- 快速效能
-- 亮色與暗色模式
-- 高度可自訂
-- 可分類的部落格文章
-- 響應式且無障礙
-- 使用 [PageFind](https://pagefind.app/) 的靜態搜尋
-- 自動生成社群分享圖片
+我希望把學到的東西整理成筆記，順便分享給有需要的人。如果你在這裡找到了有幫助的內容，那就太好了。
 
-以及更多。
+- YouTube：[Ray的頻道](https://www.youtube.com/@Ray-1028)
+- Instagram：[@ray20141028](https://www.instagram.com/ray20141028/)
+
+---
+
+Powered by [AstroPaper](https://github.com/satnaing/astro-paper) ❤️

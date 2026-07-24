@@ -29,7 +29,7 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "youtube",   url: "https://www.youtube.com" },
+    { name: "youtube",   url: "https://www.youtube.com/@Ray-1028" },
     { name: "instagram", url: "https://www.instagram.com/ray20141028/" },
   ],
   shareLinks: [

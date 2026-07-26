@@ -5,6 +5,8 @@ pubDatetime: 2026-07-26
 tags: ["opencode", "AI"]
 ---
 
+![OpenCode 教學](../../assets/images/opencode-banner.png)
+
 ## 什麼是 OpenCode？
 
 OpenCode 是一個免費的 AI 助手，直接在你的電腦終端機（命令列視窗）中運作。它能幫你寫程式、回答技術問題、修改檔案，甚至從零建立一個專案。

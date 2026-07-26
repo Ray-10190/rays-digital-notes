@@ -174,7 +174,7 @@ OpenCode 有兩種模式，用 **Tab** 鍵切換：
 
 **什麼是 MCP 伺服器？**
 
-MCP（Model Context Protocol）是一種讓 AI 連接外部工具的協定。你可以把它想像成「外掛」——讓 OpenCode 能記住資訊、搜尋文件、操作 GitHub 等。
+MCP（Model Context Protocol）是一種讓 AI 連接外部工具的協定。你可以把它想像成「外掛」——讓 OpenCode 能連接別的軟體，例如：Gmail、雲端硬碟等。
 
 以下示範如何串接官方的 **Memory** 伺服器，讓 OpenCode 跨對話記住你的資訊（偏好、決策紀錄等）。
 

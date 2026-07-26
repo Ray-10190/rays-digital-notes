@@ -77,7 +77,7 @@ OpenCode Zen 目前提供以下 **完全免費** 的模型（輸入、輸出、�
 | **Ling-3.0-flash Free** | Ling | 快速回應的輕量模型 |
 | **North Mini Code Free** | North | 專為程式碼優化的迷你模型 |
 | **Nemotron 3 Ultra Free** | NVIDIA | NVIDIA 提供的免費端點 |
-| **Big Pickle** | OpenCode | 神密模型，免費體驗中 |
+| **Big Pickle** | OpenCode | 神秘模型，免費體驗中 |
 
 > **注意：** 免費模型在免費期間，收集的資料可能會被用於模型訓練。請勿在免費模型中提交機密或個人資料。
 

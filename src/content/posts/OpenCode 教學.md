@@ -99,7 +99,7 @@ OpenCode Zen 目前提供以下 **完全免費** 的模型（輸入、輸出、�
 
 **步驟三：取得 API Key**
 
-在 OpenCode Zen 網站上登入、選擇免費模型，複製你的 API Key。
+在 OpenCode Zen 網站上登入、建立 API Key，複製你的 API Key。
 
 **步驟四：貼上 API Key**
 
@@ -114,25 +114,6 @@ OpenCode Zen 目前提供以下 **完全免費** 的模型（輸入、輸出、�
 ```
 
 選擇一個免費模型（名稱中帶有 `Free` 的就是），就可以開始使用了。
-
-### 進階：直接設定 API Key
-
-你也可以直接在設定檔中指定模型。建立或編輯 `opencode.json`：
-
-```json
-{
-  "$schema": "https://opencode.ai/config.json",
-  "provider": {
-    "opencode": {
-      "apiKey": "你的 API Key"
-    }
-  }
-}
-```
-
-設定檔的位置：
-- **全域設定**：`~/.config/opencode/opencode.json`
-- **專案設定**：專案根目錄的 `opencode.json`
 
 ## 初始化你的第一個專案
 
@@ -230,31 +211,33 @@ Email 確認、以及錯誤處理。幫我規劃實作步驟。
 /redo
 ```
 
-## 進階功能
-
 ### MCP 伺服器串接
 
-MCP（Model Context Protocol）讓 OpenCode 能連接外部工具，例如 GitHub、Sentry、文件搜尋等。
+MCP（Model Context Protocol）讓 OpenCode 能連接外部工具，例如記憶體、GitHub、文件搜尋等。
 
-在 `opencode.json` 中加入 MCP 伺服器設定：
+以下示範如何串接官方的 **Memory** 伺服器——它能讓 OpenCode 跨對話記住你的資訊（專案結構、偏好、決策紀錄等），建立一個知識圖譜。
+
+在 `opencode.json` 中加入：
 
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
-    "context7": {
-      "type": "remote",
-      "url": "https://mcp.context7.com/mcp"
+    "memory": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-memory"]
     }
   }
 }
 ```
 
-加入後，在提示中加上 `use context7` 就能讓 OpenCode 搜尋文件：
+加入後，OpenCode 會自動啟動 Memory 伺服器。你可以在對話中直接使用，例如：
 
 ```
-幫我設定 Cloudflare Worker 快取 JSON API 回應 five minutes。use context7
+記住我喜歡用 Tailwind CSS 而不是 styled-components
 ```
+
+OpenCode 會自動將這條資訊存入知識圖譜，下次對話時也能記得住。
 
 更多 MCP 伺服器選項可參考 [OpenCode MCP 文件](https://opencode.ai/docs/mcp-servers)。
 

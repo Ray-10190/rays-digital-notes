@@ -217,21 +217,15 @@ MCP（Model Context Protocol）讓 OpenCode 能連接外部工具，例如記憶
 
 以下示範如何串接官方的 **Memory** 伺服器——它能讓 OpenCode 跨對話記住你的資訊（專案結構、偏好、決策紀錄等），建立一個知識圖譜。
 
-在 `opencode.json` 中加入：
+**你不需要手動編輯設定檔。** 直接在對話中告訴 OpenCode：
 
-```json
-{
-  "$schema": "https://opencode.ai/config.json",
-  "mcp": {
-    "memory": {
-      "type": "local",
-      "command": ["npx", "-y", "@modelcontextprotocol/server-memory"]
-    }
-  }
-}
+```
+幫我串接 Memory MCP 伺服器：https://github.com/modelcontextprotocol/servers/tree/main/src/memory
 ```
 
-加入後，OpenCode 會自動啟動 Memory 伺服器。你可以在對話中直接使用，例如：
+OpenCode 會自動下載伺服器、寫入設定、完成串接。整個過程大約 30 秒。
+
+串接完成後，你可以在對話中直接使用，例如：
 
 ```
 記住我喜歡用 Tailwind CSS 而不是 styled-components

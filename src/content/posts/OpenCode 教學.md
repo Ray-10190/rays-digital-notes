@@ -1,6 +1,6 @@
 ---
 title: "OpenCode 教學：從零開始打造你的 AI 終端程式助手"
-description: "完整 OpenCode 安裝與使用教學，從環境設定、免費模型串接到實際開發，帶你用 OpenCodeZen 免費模型在終端機打造 AI 程式助手。"
+description: "完整 OpenCode 安裝與使用教學，從環境設定、免費模型串接到實際開發，帶你用 OpenCode Zen 免費模型在終端機打造 AI 程式助手。"
 pubDatetime: 2026-07-26
 tags: ["opencode", "AI"]
 ---
@@ -57,7 +57,7 @@ opencode --version
 
 如果看到版本號輸出，代表安裝成功。
 
-## 選擇 AI 模型：OpenCodeZen 免費方案
+## 選擇 AI 模型：OpenCode Zen 免費方案
 
 安裝完成後，下一步是選擇一個 AI 模型。OpenCode 支援多種付費模型（GPT、Claude、Gemini），但對新手來說，最簡單的起點是 **OpenCode Zen** 提供的免費模型。
 
@@ -67,7 +67,7 @@ OpenCode Zen 是 OpenCode 團隊提供的 AI 模型閘道器。它篩選並驗�
 
 ### 7 款免費模型
 
-OpenCodeZen 目前提供以下 **完全免費** 的模型（輸入、輸出、快取皆 $0）：
+OpenCode Zen 目前提供以下 **完全免費** 的模型（輸入、輸出、快取皆 $0）：
 
 | 模型 | 提供者 | 特色 |
 |------|--------|------|
@@ -81,7 +81,7 @@ OpenCodeZen 目前提供以下 **完全免費** 的模型（輸入、輸出、�
 
 > **注意：** 免費模型在免費期間，收集的資料可能會被用於模型訓練。請勿在免費模型中提交機密或個人資料。
 
-### 串接 OpenCodeZen
+### 串接 OpenCode Zen
 
 串接步驟非常簡單：
 
@@ -93,13 +93,13 @@ OpenCodeZen 目前提供以下 **完全免費** 的模型（輸入、輸出、�
 /connect
 ```
 
-**步驟二：選擇 OpenCodeZen**
+**步驟二：選擇 OpenCode Zen**
 
 在彈出的選單中選擇 `opencode`，然後前往 [opencode.ai/auth](https://opencode.ai/auth) 註冊帳號。
 
 **步驟三：取得 API Key**
 
-在 OpenCodeZen 網站上登入、選擇免費模型，複製你的 API Key。
+在 OpenCode Zen 網站上登入、選擇免費模型，複製你的 API Key。
 
 **步驟四：貼上 API Key**
 

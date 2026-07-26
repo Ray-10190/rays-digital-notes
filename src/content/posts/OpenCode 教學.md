@@ -27,16 +27,23 @@ curl -fsSL https://opencode.ai/install | bash
 
 ### Windows
 
-Windows 沒有一鍵安裝腳本，你需要先安裝一個套件管理器：
+Windows 沒有一鍵安裝腳本，你需要先安裝一個套件管理器。以下三選一：
+
+**使用 Winget（Windows 10/11 內建，推薦）：**
 
 ```powershell
-# 使用 Winget（Windows 10/11 內建）
 winget install anomalyco.opencode
+```
 
-# 或使用 Scoop
+**使用 Scoop：**
+
+```powershell
 scoop install opencode
+```
 
-# 或使用 Chocolatey
+**使用 Chocolatey：**
+
+```powershell
 choco install opencode
 ```
 
@@ -52,11 +59,11 @@ opencode --version
 
 ## 選擇 AI 模型：OpenCodeZen 免費方案
 
-安裝完成後，下一步是選擇一個 AI 模型。OpenCode 支援多種付費模型（GPT、Claude、Gemini），但對新手來說，最簡單的起點是 **OpenCodeZen** 提供的免費模型。
+安裝完成後，下一步是選擇一個 AI 模型。OpenCode 支援多種付費模型（GPT、Claude、Gemini），但對新手來說，最簡單的起點是 **OpenCode Zen** 提供的免費模型。
 
-### 什麼是 OpenCodeZen？
+### 什麼是 OpenCode Zen？
 
-OpenCodeZen 是 OpenCode 團隊提供的 AI 模型閘道器。它篩選並驗證了一組適合編程代理使用的模型，確保品質和效能穩定。你不需要自己去比較哪個模型好用，Zen 幫你做好了測試。
+OpenCode Zen 是 OpenCode 團隊提供的 AI 模型閘道器。它篩選並驗證了一組適合編程代理使用的模型，確保品質和效能穩定。你不需要自己去比較哪個模型好用，Zen 幫你做好了測試。
 
 ### 7 款免費模型
 

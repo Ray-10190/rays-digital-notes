@@ -24,7 +24,6 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: false,
-      url: "https://github.com/Ray-10190/rays-digital-notes/edit/main/",
     },
     search: "pagefind",
   },

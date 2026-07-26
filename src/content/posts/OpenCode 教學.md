@@ -187,7 +187,7 @@ MCP（Model Context Protocol）是一種讓 AI 連接外部工具的協定。你
 OpenCode 會自動完成設定。串接完成後，你可以在對話中直接使用：
 
 ```
-記住我喜歡用 Tailwind CSS 而不是 styled-components
+記住你只能使用繁體中文回答
 ```
 
 下次對話時，OpenCode 也會記得這件事。

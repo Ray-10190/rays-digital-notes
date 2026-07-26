@@ -1,14 +1,9 @@
 ---
-title: "OpenCode 教學：從零開始打造你的 AI 終端程式助手（2026）"
+title: "OpenCode 教學：從零開始打造你的 AI 終端程式助手"
 description: "完整 OpenCode 安裝與使用教學，從環境設定、免費模型串接到實際開發，帶你用 OpenCodeZen 免費模型在終端機打造 AI 程式助手。"
 pubDatetime: 2026-07-26
 tags: ["opencode", "AI"]
 ---
-
-> **Key Takeaways**
-> - OpenCode 是免費開源的 AI 終端程式助手， GitHub 上超過 19 萬顆星，支援 75 種以上 LLM 模型
-> - 透過 OpenCodeZen 提供 7 款完全免費的 AI 模型，無需信用卡即可開始使用
-> - 從安裝到上手只需 5 分鐘，完整支援 Plan/Build 模式、MCP 工具串接、多 Session 管理
 
 ## 什麼是 OpenCode？
 
@@ -18,62 +13,31 @@ OpenCode 是一個開源的 AI 編程代理（coding agent），直接在你的�
 
 OpenCode 提供三種使用方式：終端機 TUI（終端機使用者介面）、桌面應用程式，以及 IDE 擴充套件。本篇教學以終端機 TUI 為主，因為這是最直接、最輕量的使用方式。
 
-## 環境準備
-
-在安裝 OpenCode 之前，你需要準備以下環境：
-
-### 終端機選擇
-
-OpenCode 需要一個現代化的終端機模擬器。推薦以下選項：
-
-| 終端機 | 平台 | 特色 |
-|--------|------|------|
-| [WezTerm](https://wezterm.org/) | Windows / Mac / Linux | 跨平台，功能完整 |
-| [Windows Terminal](https://aka.ms/terminal) | Windows | Windows 內建，簡潔好用 |
-| [Alacritty](https://alacritty.org/) | Windows / Mac / Linux | 輕量快速，GPU 加速 |
-| [Ghostty](https://ghostty.org/) | Mac / Linux | 新生代終端機 |
-
-如果你使用 Windows，建議安裝 [Windows Terminal](https://aka.ms/terminal) 或使用 WSL（Windows Subsystem for Linux）以獲得最佳體驗。
-
-### 系統需求
-
-- 作業系統：Windows 10+、macOS 12+、Linux
-- Node.js：v18 或以上（使用 npm 安裝時需要）
-- 基本的終端機操作能力
-
-
-
 ## 安裝 OpenCode
 
 OpenCode 提供多種安裝方式，選擇最適合你作業系統的方法：
 
-### Windows 安裝
-
-```powershell
-# 方法一：使用 Chocolatey
-choco install opencode
-
-# 方法二：使用 Scoop
-scoop install opencode
-
-# 方法三：使用 npm（需要 Node.js）
-npm install -g opencode-ai
-
-# 方法四：使用 Mise
-mise use -g github:anomalyco/opencode
-```
-
-### macOS / Linux 安裝
+### macOS / Linux
 
 ```bash
-# 方法一：一鍵安裝腳本（推薦）
 curl -fsSL https://opencode.ai/install | bash
+```
 
-# 方法二：使用 Homebrew
-brew install anomalyco/tap/opencode
+一行指令搞定，不需要事先安裝任何東西。
 
-# 方法三：使用 npm
-npm install -g opencode-ai
+### Windows
+
+Windows 沒有一鍵安裝腳本，你需要先安裝一個套件管理器：
+
+```powershell
+# 使用 Winget（Windows 10/11 內建）
+winget install anomalyco.opencode
+
+# 或使用 Scoop
+scoop install opencode
+
+# 或使用 Chocolatey
+choco install opencode
 ```
 
 ### 驗證安裝
@@ -85,14 +49,6 @@ opencode --version
 ```
 
 如果看到版本號輸出，代表安裝成功。
-
-**常見安裝問題：**
-
-| 錯誤訊息 | 原因 | 解決方法 |
-|----------|------|----------|
-| `command not found: opencode` | 安裝路徑未加入 PATH | 重新開啟終端機，或手動加入 PATH |
-| `npm ERR! code EACCES` | npm 權限不足 | 設定 npm 全域路徑（`npm config set prefix ~/.npm-global`），或改用 Chocolatey/Scoop 安裝 |
-| `choco is not recognized` | Chocolatey 未安裝 | 先安裝 [Chocolatey](https://chocolatey.org/install) |
 
 ## 選擇 AI 模型：OpenCodeZen 免費方案
 

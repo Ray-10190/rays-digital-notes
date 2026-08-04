@@ -28,10 +28,10 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "youtube",   url: "https://www.youtube.com/@Ray-1028" },
-    { name: "instagram", url: "https://www.instagram.com/ray20141028/" },
-    { name: "facebook",  url: "https://www.facebook.com/profile.php?id=61566444941709&locale=zh_TW" },
-    { name: "threads",   url: "https://www.threads.com/@ray20141028?hl=zh-tw" },
+    { name: "youtube",   url: "https://www.youtube.com/@Ray-1028",  linkTitle: "YouTube" },
+    { name: "instagram", url: "https://www.instagram.com/ray20141028/", linkTitle: "Instagram" },
+    { name: "facebook",  url: "https://www.facebook.com/profile.php?id=61566444941709&locale=zh_TW", linkTitle: "Facebook" },
+    { name: "threads",   url: "https://www.threads.com/@ray20141028?hl=zh-tw", linkTitle: "Threads" },
   ],
   shareLinks: [
     { name: "mail",     url: "mailto:?subject=See%20this%20post&body=" },

@@ -32,7 +32,7 @@ Windows 沒有一鍵安裝腳本，你需要先安裝一個套件管理器。以
 **使用 Winget（Windows 10/11 內建，推薦）：**
 
 ```powershell
-winget install anomalyco.opencode
+winget install SST.opencode
 ```
 
 **使用 Scoop：**

@@ -13,6 +13,8 @@ description: "關於我與這個部落格。"
 
 - YouTube：[Ray的頻道](https://www.youtube.com/@Ray-1028)
 - Instagram：[@ray20141028](https://www.instagram.com/ray20141028/)
+- Facebook：[Ray的 Facebook](https://www.facebook.com/profile.php?id=61566444941709&locale=zh_TW)
+- Threads：[@ray20141028](https://www.threads.com/@ray20141028?hl=zh-tw)
 
 ---
 
